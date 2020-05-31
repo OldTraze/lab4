@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+<body>
+    <script>
+        let myArray = new Map(); 
+        myArray.set('PIVO', 'BEER'); 
+        myArray.set('RYBA', 'FISH'); 
+        myArray.set('CHIPSY', 'CHIPS');
+        myArray.set('SUKHARIKI', 'SNAKS');
+        for (let pair of myArray.entries()){ 
+            console.log(`UKR = ${pair[0]}: ENG = ${pair[1]}`);
+        }
+    </script>
+</body>
+</html>
